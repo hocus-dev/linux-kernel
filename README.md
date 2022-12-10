@@ -11,3 +11,7 @@ cp ../kernel-config.txt linux-5.6/.config
 cd linux-5.6
 make vmlinux
 ```
+
+Note: compiling worked on Gitpod, but not on my local machine.
+Options required for Firecracker's SendCtrlAltDel:
+https://github.com/firecracker-microvm/firecracker/blob/2b8ad83629af511f918d616aa1c0d441e52c397a/docs/api_requests/actions.md#intel-and-amd-only-sendctrlaltdel
